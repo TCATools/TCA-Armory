@@ -85,3 +85,7 @@ go:
     func_params:
     - 1
     msg: 函数参数未过滤引发的xss攻击漏洞
+js:
+  send:
+    func_param:
+    - -1

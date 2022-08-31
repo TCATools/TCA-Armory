@@ -3,6 +3,10 @@ python:
     func_params:
     - -1
     msg: eval导致代码注入
+  execfile:
+    func_params:
+    - -1
+    msg: execfile导致代码注入
 php:
   assert:
     func_params:
