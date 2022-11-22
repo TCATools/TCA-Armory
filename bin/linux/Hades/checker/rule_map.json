@@ -62,5 +62,11 @@
     "resource_leak": "resource_leak",
     "missing_lock": "missing_lock",
     "dead_lock": "missing_lock",
-    "unused_value": "unused_value"
+    "unused_value": "unused_value",
+    "map_init": "go_map",
+    "forward_null": "null_pointer_checker",
+    "reverse_null": "null_pointer_checker",
+    "glob_null_pointer": "null_pointer_checker",
+    "dead_branch": "deadcode",
+    "uinit": "init_checker"
 }
