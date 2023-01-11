@@ -68,5 +68,9 @@
     "reverse_null": "null_pointer_checker",
     "glob_null_pointer": "null_pointer_checker",
     "dead_branch": "deadcode",
-    "uinit": "init_checker"
+    "uinit": "init_checker",
+    "vector_overflow": "array_overflow",
+    "stack_use": "stack_checker",
+    "atomicity": "missing_lock",
+    "constant_expression_result": "constant_result"
 }
