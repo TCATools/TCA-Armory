@@ -19,7 +19,7 @@ jobs:
           done
       - name: Push to TGIT
         run: |
-          remote_repo="https://${TGIT_USERNAME}:${TGIT_PASSWORD}@git.code.tencent.com/TCA/tca-tools/${GITHUB_REPOSITORY##*/}.git"
+          remote_repo="https://${TGIT_USERNAME}:${TGIT_PASSWORD}@git.code.tencent.com/TCA/tca-tools/tca-tools-opensource/${GITHUB_REPOSITORY##*/}.git"
           git remote add tgit "${remote_repo}"
           git show-ref # debug
           git branch --verbose
